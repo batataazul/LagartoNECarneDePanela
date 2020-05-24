@@ -150,7 +150,7 @@ label floresta_3:
 
     "Guia da floresta" "Sim, o lugar certo fica a um tempinho daqui."
 
-    "A moça te dá as costas começa a entrar mais fundo na floresta, a implicação óbvia é que você devia estar seguindo ela, 
+    "A moça te dá as costas e começa a entrar mais fundo na floresta, a implicação óbvia é que você devia estar seguindo ela, 
     então é isso que você faz"
 
     "??? da floresta" "Minha nossa, que falta de educação! Eu esqueci de te dizer o meu nome!"
@@ -457,7 +457,7 @@ label cemiterio_0:
 
     "Você explica pra ele que você não pode exatamente jogar ele no chão, visto que não foi exatamente pra isso que você foi chamado"
 
-    cervo "Ah, é? Então pra que foi que você foi chamado"
+    cervo "Ah, é? Então pra que foi que você foi chamado?"
 
     "Você explica que foi pra trazer Abelarde de volta pra irmã dele"
 
