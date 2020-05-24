@@ -1,2 +1,34 @@
 label introducao_dia1:
-    return
+    "TECO" with hpunch
+
+    "A parte mais surpreendente da sua manhã é quando você acorda e um pássaro realmente se tacou na sua janela"
+
+    "A parte mais surpreendente da sua manhã é quando você acorda e um pássaro realmente se tacou na sua janela"
+
+    "Você levanta pra dar uma olhadinha no cadáver"
+
+    "Mm, definitivamente morto, mm hm"
+
+    "Você considera reviver o passarinho a sua boa ação do dia. 
+    Você se assegura de que essa vai ser a única revivida de graça que você vai fazer hoje, 
+    já que você não quer se cansar"
+
+    "O problema disso é que as suas duas opções de atividade pra hoje representam justamente 
+    a dualidade entre ganhar dinheiro e não ganhar dinheiro"
+
+    "Você pode ou tomar a decisão sensível e inteligente e ir perguntar o que é que a Palma, a pessoa que te contratou, quer que você faça hoje"
+
+    "Ou você pode fazer a coisa esquisita e ir ver o que é que o Abelarde, o esqueleto esquisito da floresta, quer que você faça por ele"
+
+    "Essa segunda opção não somente vai contra a sua ética de trabalho como ela também não te garante o seu pagamento, 
+    já que você duvida que o Abelarde foi enterrado com qualquer coisa que você ia gostar de receber"
+
+    "Mas esse, presumivelmente, é um país livre, então você pode escolher com quem você quer passar o dia"
+
+menu:
+    "Passar o dia com o Abelarde":
+        $eAbelarde += 1
+        jump dia_1_com_abelarde
+    "Passar o dia com a Palma":
+        $ePalma += 1
+        jump dia_1_palma
