@@ -883,7 +883,7 @@ label quarto_1:
 
     "Parece que funciona"
 
-    jump introducao
+    jump introducao_dia1
 
 
 

@@ -1,2 +1,2 @@
-label introducao:
+label introducao_dia1:
     return
