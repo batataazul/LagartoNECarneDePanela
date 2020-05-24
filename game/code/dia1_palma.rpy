@@ -267,7 +267,7 @@ label arvore_0:
     "A Palma olha na sua direção como se esperasse que você fizesse alguma coisa"
     "Ok, você vai salvar esse momento familiar seja isso a última coisa que você faça"
     "Você mata as pernas dele"
-    [Sprite do Pierre fica mais baixo]
+    #[Sprite do Pierre fica mais baixo]
     "O castorzão cai no chão"
     "Ele passa um segundinho encarando a terra enquanto presumivelmente reavalia toda decisão que já tomou em morte"
     castor "Morto"
@@ -286,7 +286,7 @@ label arvore_0:
     dragao "Você tava falando de carvar um crânio"
     dragao "Você pode elaborar?"
     castor "... Certo"
-    [Tela branca]
+    #[Tela branca]
     castor "Era um presente pra mamãe"
     dragao "Era um presente?"
     dragao "Vovó tava morta, não tava?"
@@ -296,20 +296,20 @@ label arvore_0:
     castor "Ela ia querer ser homenageada com arte"
     castor "Então a Aurora me ajudou"
     castor "A esposa do meu irmão?" 
-    [Tela volta ao normal]
+    #[Tela volta ao normal]
     dragao "Eu conheço a minha tia"
     castor "Claro"
-    [Tela branca]
+    #[Tela branca]
     castor "Ela era a única outra artista de verdade na casa"
     castor "Então a gente pensou numa homenagem"
-    [Silhueta dos crânios]
+    #[Silhueta dos crânios]
     castor "Eu parti o crânio da mamãe em dois"
     castor "Cada um ficou com uma metade"
-    [Sprite dos crânios]
+    #[Sprite dos crânios]
     castor "E nós dois decoramos"
     castor "Era uma surpresa pra família, a gente queria que fosse exposto na sala"
     castor "Mas eu não tive tempo de dar os toques finais"
-    [Tela normal]
+    #[Tela normal]
     dragao "Oh? Não tava pronta?"
     dragao "A gente expôs mesmo assim"
     castor "Com licença"
@@ -360,19 +360,19 @@ label arvore_0:
     castor "Mas esse é um país livre"
     castor "E eu sou forte"
     castor "Então eu fui mesmo assim"
-    [Vinheta da morte aparece]
+    #[Vinheta da morte aparece]
     castor "A parte ruim de cortar madeira quando tem uma tempestade por aí é essa"
     castor "Você não é o único lenhador por aí"
     castor "A Mãe Natureza também estava procurando troncos naquela noite"
     castor "E aparentemente Ela tava interessada numa árvore bem próxima de onde eu tava"
     castor "A última coisa que eu lembro de ver foi o tronco caindo em cima de mim"
     castor "E eu morri"
-    [Vinheta da morte desaparece]
+    #[Vinheta da morte desaparece]
     "Você se pergunta porque exatamente ele acreditava que a morte tinha sido engraçada"
     "Você pergunta se ele quer as pernas dele de volta"
     castor "Sim"
     "Você pega elas de onde elas tinham caído no chão. Alinhar elas com o resto dos ossos é um pouquinho constrangedor com ele acordado, mas em pouco tempo elas tão conectadas de novo"
-    [Sprite do Pierre volta ao normal]
+    #[Sprite do Pierre volta ao normal]
     "Você pergunta se ele pretende dar aquela volta agora"
     castor "..."
     castor "... Sim"
@@ -387,6 +387,6 @@ label arvore_0:
     dragao "Oh, claro"
     dragao "Eu imagino que reviver alguém seja um processo bem cansativo"
     "Oh, isso ela pode ter certeza que é"
-    [BG hall principal]
+    #[BG hall principal]
     "Você vai pro seu quarto e ela oferece te deixar mais um pedaço de torta pra você não ir dormir com fome"
     "Você cai no sono antes da torta chegar"
