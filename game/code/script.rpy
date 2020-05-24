@@ -603,7 +603,7 @@ label cemiterio_0:
         tendo nascido uma lagarta, espécie considerada por literalmente quase todo mundo como \"bem ok\""
     else:
         "Além disso você meio que precisa admitir que ter medo de um Pé Grande é sim um reflexo da sua visão privilegiada de mundo, 
-        tendo nascido um lagarte, espécie considerada por literalmente quase todo mundo como \"bem ok\""
+        tendo nascido ume lagarte, espécie considerada por literalmente quase todo mundo como \"bem ok\""
 
     "Mas não era disso que essa situação se tratava, você se vira de novo pra Abelarde pra perguntar o que diabos que ele tinha -"
 
@@ -615,6 +615,104 @@ label cemiterio_0:
 
     "Não é como se fosse a primeira vez que um morto simplesmente te deixa de lado. 
     Isso, é claro, não muda o fato de que isso é uma situação extremamente decepcionante"
+
+    "Você supõe que a melhor coisa a se fazer a esse ponto é voltar pra falar com a Palma sobre o que aconteceu"
+
+    "Você zigue zagueia por entre os túmulos em direção à entrada da casa, tomando sempre cuidado pra não pisar na cabeça de algum cadáver solto"
+
+    "Você chega na porta da frente, bate as botas lamacentas, e dá 3 batidinhas na madeira"
+
+    dragao "Tá aberta!"
+
+    "Você abre a porta"
+
+    scene bg hall with dissolve
+
+    show palma normal
+
+    "A Palma parece estar dando o seu melhor pra ocupar a maior porcentagem possível do seu campo de visão. 
+    Mesmo assim, você não consegue deixar de notar o quão grande a casa é"
+
+    "Seus olhos se fixam particularmente em uma espécie de pedestal no meio da sala. 
+    Parece que guardaram uma folha de papel com alguma coisa escrita lá dentro"
+
+    "… mas isso não é importante agora. Seus olhos se fixam de novo na Palma, 
+    cuja expressão mudou de pura eletricidade pra uma mistura deprimente de confusão e descrença"
+
+    dragao "Uh…?"
+
+    dragao "Cadê o Abelarde?"
+
+    "Você tenta explicar do jeito mais delicado possível que o irmão esqueleto dela meio que chamou ela de maluca 
+    e depois saiu correndo pro meio da floresta"
+
+    dragao "Oh"
+
+    dragao "É, eu acho que eu devia ter esperado que ele poderia não reagir tão bem"
+
+    "Ela para de falar e vocês se encaram por um segundo desconfortável"
+
+    "Você imagina por um segundo que, já que ela não tem nenhuma prova de que você realmente fez o seu trabalho, 
+    ela vai te mandar voltar à pé pra casa e ainda sem pagamento"
+
+    "Você não precisa dizer em voz alta o quanto você se opõe à essa ideia"
+
+    dragao "Uh, tudo bem, tudo bem"
+
+    dragao "Eu ainda tinha umas coisas em mente, na realidade, se você não se incomoda"
+
+    dragao "Mas eu acho que já tá ficando tarde, uh"
+
+    dragao "Você quer dormir por aqui?"
+
+    dragao "Eu digo, pra não ter que voltar pela floresta no meio da noite"
+
+    dragao " Além de que pode ser que o Abelarde volte e talvez seja mais fácil falar com ele com você por aqui pra mediar"
+
+menu:
+    "Concordar":
+        pass
+    "Lembrando da caminhada inteira que você fez até aqui, você nem mesmo consegue racionalizar a possibilidade de dizer não":
+        pass
+
+label casaIn_0:
+
+    dragao "Oh, ótimo!"
+
+    dragao "Tem uns quartos vazios por aqui"
+
+    dragao "Vem, eu te levo"
+
+    "Claro, uh"
+
+    "Ok, pera, tem alguma coisa ali"
+
+    "Lagartos necromantes são atraídos por composição provocativa que nem lagartos normais são atraídos por moscas"
+
+    dragao "Desculpa, como?"
+
+    "Você provavelmente não devia ter dito a parte das moscas em voz alta mas agora é tarde demais"
+
+    "Uh, você explica que você tava falando daquele poema esquisito enquadrado ali no canto"
+
+    "A maior parte dos poemas não ficam enquadrados, você nota"
+
+    dragao "Oh, isso, uhh, isso não é nada"
+
+    "Tarde demais moça agora você vai ler"
+
+    show poema renascer at truecenter
+
+    with None
+
+    pause
+
+    hide poema with dissolve
+
+    "Huh, okay"
+    
+
+
 
 
 
