@@ -1,30 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/code/script.rpy", line 211, in script
-    with Pause()
-TypeError: __init__() takes at least 2 arguments (3 given)
+  File "game/code/script.rpy", line 65, in script
+    show palma normal at bottomleft
+  File "game/code/script.rpy", line 65, in <module>
+    show palma normal at bottomleft
+NameError: name 'bottomleft' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/code/script.rpy", line 211, in script
-    with Pause()
-  File "C:\Users\Gabriel de Freitas\OneDrive\Documentos\Jogos\renpy-7.3.5-sdk\renpy\ast.py", line 1389, in execute
-    renpy.exports.with_statement(trans, paired)
-  File "C:\Users\Gabriel de Freitas\OneDrive\Documentos\Jogos\renpy-7.3.5-sdk\renpy\exports.py", line 1601, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "C:\Users\Gabriel de Freitas\OneDrive\Documentos\Jogos\renpy-7.3.5-sdk\renpy\display\core.py", line 2251, in do_with
-    clear=clear)
-  File "C:\Users\Gabriel de Freitas\OneDrive\Documentos\Jogos\renpy-7.3.5-sdk\renpy\display\core.py", line 2702, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "C:\Users\Gabriel de Freitas\OneDrive\Documentos\Jogos\renpy-7.3.5-sdk\renpy\display\core.py", line 3047, in interact_core
-    new_widget=layers_root)
-  File "C:\Users\Gabriel de Freitas\OneDrive\Documentos\Jogos\renpy-7.3.5-sdk\renpy\curry.py", line 43, in __call__
-    **dict(self.kwargs.items() + kwargs.items()))
-TypeError: __init__() takes at least 2 arguments (3 given)
+  File "game/code/script.rpy", line 65, in script
+    show palma normal at bottomleft
+  File "C:\Users\Gabriel de Freitas\OneDrive\Documentos\Jogos\renpy-7.3.5-sdk\renpy\ast.py", line 1183, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "C:\Users\Gabriel de Freitas\OneDrive\Documentos\Jogos\renpy-7.3.5-sdk\renpy\ast.py", line 1142, in show_imspec
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "C:\Users\Gabriel de Freitas\OneDrive\Documentos\Jogos\renpy-7.3.5-sdk\renpy\python.py", line 2059, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Gabriel de Freitas\OneDrive\Documentos\Jogos\renpy-7.3.5-sdk\renpy\python.py", line 2052, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/code/script.rpy", line 65, in <module>
+    show palma normal at bottomleft
+NameError: name 'bottomleft' is not defined
 
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
 Lagarto nao e carne de panela 1.0
-Sat May 23 23:03:49 2020
+Sun May 24 11:37:20 2020

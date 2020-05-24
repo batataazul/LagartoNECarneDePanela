@@ -62,7 +62,7 @@ label floresta_1:
     "Você massageia o seu nariz onde tá doendo antes de confrontar a coisa que aparentemente 
     você tava fundo demais nos seus pensamentos pra perceber"
 
-    show palma at center 
+    show palma normal at center
 
     "Moça da floresta?" "Oh, eu sinto muito! Eu não tinha te visto"
 
@@ -216,7 +216,7 @@ label floresta_3:
 
     "Você pergunta pra Palma se esse casarão é onde ela mora"
 
-    show palma at center with moveinright
+    show palma normal at center with moveinright
 
     dragao "Pois é, era uma família grande"
 
@@ -273,6 +273,8 @@ label casaOut_0:
 
     "Olhando mais de perto, não parecia ter nenhuma demarcação na sepultura"
 
+    show palma normal at left
+
     dragao "Ah, tá aqui"
 
     dragao "O coitadinho não se mexeu esse tempo todo"
@@ -317,13 +319,15 @@ label casaOut_0:
     Arrancar ele da terra é mais complicado do que normalmente é, por algum motivo."
 
     hide palma
-    show abelarde cranio 
+    show abelarde cranio at truecenter
 
     "Ah, eram os chifres, enfiados fundo demais"
 
     "Uh, o crânio parece ser de um cervo, na realidade"
 
-    show palma
+    show abelarde cranio at left
+    show palma normal at right
+    with move
 
     dragao "É meu, uh, meio irmão"
 
@@ -355,11 +359,13 @@ label cemiterio_0:
 
     dragao "Pra nós três!"
 
-    hide palma with moveinleft
-
+    show palma normal at left 
+    with move
+    hide palma
+    with None
     "Onde é que você tava mesmo?"
 
-    show abelarde cranio
+    show abelarde cranio at truecenter
 
     "Você ergue o crânio aos céus, os últimos pulsos de vida dele batucando contra os seus dedos"
 
