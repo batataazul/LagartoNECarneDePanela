@@ -545,7 +545,7 @@ label cemiterio_0:
     você consegue desenterrar o resto do esqueleto sem muitos problemas"
 
     "Você aproveita pra pegar um manto do varal próximo. Mesmo que não tenha mais nada pra esconder, 
-    a maior parte dos recém revividos se sentem extremamente expostas quando os seus ossos ficam à mercê do vento"
+    a maior parte dos recém revividos se sentem extremamente expostos quando os seus ossos ficam à mercê do vento"
 
     cervo "Vendo de longe, eu sempre achei que eu fosse um pouquinho mais alto do que isso"
 
