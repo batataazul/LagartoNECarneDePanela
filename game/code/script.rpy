@@ -711,6 +711,181 @@ label casaIn_0:
 
     "Huh, okay"
     
+    dragao "É, uh"
+
+    dragao "Foi minha avó que escreveu"
+
+    dragao "É importante, é por isso que tá enquadrado"
+
+    "É, isso parece compreensível"
+
+    dragao "Sim, uh"
+
+    dragao "Você acabou? A gente pode ir?"
+
+    "Oh, claro"
+
+    "Você tava quase em cima do poema agora"
+
+    "Espaço pessoal, espaço pessoal"
+
+    if genero == 2:
+        "Você sinaliza pra Palma que, sim, você tá pronte pra continuar"
+    elif genero == 1:
+        "Você sinaliza pra Palma que, sim, você tá pronta pra continuar"
+    else:
+        "Você sinaliza pra Palma que, sim, você tá pronto pra continuar"
+
+    dragao "Claro"
+
+    "Do hall de entrada vocês sobem as escadas e vão parar na porta de um quarto. 
+    Palma começa a mexer num bolo de chaves que ela tinha guardado no bolso"
+
+    "Um, um molho de chaves, essa é a expressão certa"
+
+    dragao "O quarto é de uma tia minha"
+
+    dragao "Ah, ela não mora mais aqui, não precisa se preocupar"
+
+    "Você não se preocupa. Sinceramente, caminhar pela floresta e depois acordar o Abelarde te cansou muito mais do que você esperava"
+
+    "Palma finalmente encontra a chave certa e consegue abrir a porta do quarto"
+
+    dragao "Aqui, pode se sentir à vontade"
+
+    dragao "Se precisar de alguma coisa pode chamar"
+
+    "Claro, claro, ugh"
+
+    "Você agradece antes de dar boa noite"
+
+    "O que é um pouquinho estranho já que o sol só tá começando a se pôr agora, mas você sempre preferiu ir dormir cedo"
+
+    "Você se deita na cama, ela é surpreendentemente confortável"
+
+    "Uau, você não tinha percebido o quanto reviver o Abelarde tinha te cansado"
+
+    "Você fecha os olhos e o calor dos cobertores te envolve perfeitamente"
+
+    "Você pretendia descansar por um segundo antes de ir fazer alguma coisa mais produtiva mas, uh"
+
+    "É, não, você vai ir dormir agora sim"
+
+    "Você afunda no colchão e deixa o sono te envolver completamente"
+
+    "Boa noite, necr -"
+
+    "TECO" with hpunch
+
+    if genero == 2:
+        "Uh, ok, você tem quase certeza de que isso foi um pássaro se tacando na janela do seu quarto, o que é sinal de que você não devia olhar, 
+        porque se você ver um pássaro morto seu coração mole vai te fazer reviver ele e você vai ficar ainda mais cansade"
+    elif genero == 1:
+        "Uh, ok, você tem quase certeza de que isso foi um pássaro se tacando na janela do seu quarto, o que é sinal de que você não devia olhar, 
+        porque se você ver um pássaro morto seu coração mole vai te fazer reviver ele e você vai ficar ainda mais cansada"
+    else:
+        "Uh, ok, você tem quase certeza de que isso foi um pássaro se tacando na janela do seu quarto, o que é sinal de que você não devia olhar, 
+        porque se você ver um pássaro morto seu coração mole vai te fazer reviver ele e você vai ficar ainda mais cansado"
+
+    "Então você ignora completamente o barulho e -"
+
+    "TECO" with hpunch
+
+    if genero == 2:
+        "Você admite que não é exatamente todo dia que dois pássaros se tacam na sua janela consecutivamente, 
+        mas você tá disposte a acreditar que a Mãe Natureza não erra, e que se o destino quis que esses dois -"
+    elif genero == 1:
+        "Você admite que não é exatamente todo dia que dois pássaros se tacam na sua janela consecutivamente, 
+        mas você tá disposta a acreditar que a Mãe Natureza não erra, e que se o destino quis que esses dois -"
+    else:
+        "Você admite que não é exatamente todo dia que dois pássaros se tacam na sua janela consecutivamente, 
+        mas você tá disposto a acreditar que a Mãe Natureza não erra, e que se o destino quis que esses dois -"
+
+    "TECO" with hpunch
+
+    "Você reconhece que a Mãe Natureza absolutamente tem alguma coisa contra pássaros 
+    e bombardear a janela de alguém com eles é só uma coisa que Ela faz de vez em quando como forma de retribuição divi -"
+
+    "TECO" with hpunch
+
+    "Você tenta inventar mais uma desculpa pela qual -"
+
+    "TECO" with hpunch
+
+    "Ok, não são pássaros"
+
+    "Ughhhhhh"
+
+    "Você se levanta e vai ver o que é que tá acontecendo na janela"
+
+    "Huh"
+
+    "He he"
+
+    show abelarde
+
+    "Você vê o Abelarde com uma pilha absolutamente massiva de pedras no chão"
+
+menu:
+    "OLHA SÓ!! QUEM! DECIDIU! VOLTAR!!!":
+        pass
+
+label quarto_0:
+
+    "Você desvia por pouco da pedra que o Abelarde joga em direção à sua cabeça quando você abre a boca pra começar a gritar"
+
+    "Ele faz um sinal de silêncio extremamente dramático do chão"
+
+    "Claro, é ideal pra ele que a Palma não escute essa bagunça toda"
+
+    "Abelarde começa a sinalizar pra você usando uma combinação de gestos rápidos e bem treinados 
+    e você começa a pensar num jeito de mostrar pra ele que você não entende Libras"
+
+menu:
+    "Sinal negativo":
+        pass
+    "Mãos pra cima":
+        pass
+    "Macarena":
+        pass
+
+label quarto_1:
+
+    "Você não consegue escutar nada do que tá acontecendo lá embaixo mas o suspiro que o Abelarde dá é tão exagerado que você quase sente"
+
+    "Ele levanta a cabeça e começa a falar de maneira extremamente. Calma. E. Enunciada"
+
+    cervo "Não." 
+    cervo "Tenho." 
+    cervo "Pra." 
+    cervo "Onde." 
+    cervo"Ir"
+
+    cervo "Me." 
+    cervo "Procura." 
+    cervo "Amanhã"
+
+    "Você reconhece que leitura labial é muito mais difícil quando a pessoa que você tá lendo não tem lábios, 
+    mas você acha que você acertou tudo"
+
+    "Você começa a pensar em algum sinal pra confirmar que você entendeu, mas parece que o Abelarde já se virou pra ir embora"
+    hide abelarde with moveinright
+
+    "Huh, esquisitão"
+
+    "Ok, você fecha a janela"
+
+    "Você decide que você pode deixar pra considerar se você devia ir fazer o que o Abelarde quer amanhã, porque agora você tá"
+
+    "Com sono"
+
+    "Você volta a deitar na cama e torce pra nenhum pássaro se tacar na janela dessa vez"
+
+    "Parece que funciona"
+
+    jump introducao
+
+
 
 
 
