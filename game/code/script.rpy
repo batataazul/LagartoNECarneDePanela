@@ -18,7 +18,7 @@ define genero = False
 label start:
     #começo dia 0
     
-    scene bg floresta
+    scene bg entrada desfoque
     "Era uma das últimas tardes mornas do começo do outono. 
     Uma brisa leve bagunçava suas roupas e os raios de sol banhavam o mundo inteiro em laranja."
 
@@ -261,7 +261,7 @@ label casaOut_0:
 
     "Dizer que o cemitério era grande seria um eufemismo"
 
-    scene bg cemiterio with dissolve
+    scene bg cemiterio dia with dissolve
 
     "Era só um monte de túmulos espalhados por uma área livre de árvores."
 
