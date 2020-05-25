@@ -116,7 +116,9 @@ label cozinha_0:
 
     "Você se levanta e Palma corre logo em direção à porta"
     
-    scene bg
+    scene bg entrada with fade
+
+    show palma normal at center with dissolve
 
     "Você segue ela até à entrada da casa"
 
@@ -214,155 +216,322 @@ label arvore_0:
     "Oh, claro"
 
     "Você se ajoelha ao lado do cadáver"
-    #parei aqui
+
     "Você sente que ele morreu já faz um bom tempo, você sente quase como se o corpo dele tivesse começado a criar raízes no chão"
-    "Você se assusta com a quantidade de massa peitoral que ele ainda tem? Uh, você para de tatear o peito dele antes que a Palma comece a achar estranho"
-    "O cadáver começa a pulsar contra os seus dedos"
+
+    "Você se assusta com a quantidade de massa peitoral que ele ainda tem? 
+
+    Uh, você para de tatear o peito dele antes que a Palma comece a achar estranho"
+
+    "O cadáver começa a pulsar contra os seus dedos" with vpunch
+
     "Ele não consegue exatamente abrir os olhos, visto que ele não tem exatamente pálpebras, mas ele faz alguma coisa parecida"
+
+    show palma normal at left with move
+
     "Bom dia grandão"
+
+    show castor cp with pixellate
+
     castor "Huh?"
+
     dragao "Oh, nossa"
+
     castor "Ehh?"
+
     castor "Quem?"
-    "Você acha que a melhor resposta pra essa pergunta é que é você mesmo, mas você não acha que é isso que o castorzão tá querendo ouvir então você só se cala"
+
+    "Você acha que a melhor resposta pra essa pergunta é que é você mesmo, 
+    mas você não acha que é isso que o castorzão tá querendo ouvir então você só se cala"
     dragao "Eu?"
+
     castor "..."
+
     castor "... Palma?"
+
     dragao "Oh, ufa!"
+
     dragao "Oi! Tio!"
+
     castor "Oi"
+
     "Ele te encara por um segundo e você não tem nenhuma ideia do que é suposto você fazer"
+
     dragao "Oh, uh, necromante!"
+
     dragao "Digo, afirmação"
+
     dragao "Tio, necromante"
+
     castor "Lenhador"
+
     dragao "Não, digo"
+
     dragao "Guhh"
+
     dragao "Tio! Você tá morto!"
-    "O castor solta a fachada estóica por um segundo pra encarar a própria mão. Ele balança um ossinho que protubera pra fora do buraco de onde o dedo dele devia continuar"
+
+    "O castor solta a fachada estóica por um segundo pra encarar a própria mão. 
+    Ele balança um ossinho que protubera pra fora do buraco de onde o dedo dele devia continuar"
     castor "... Machucadinho"
+
     dragao "Não!"
+
     castor "Eu sou forte"
+
     dragao "Não!"
+
     dragao "Eu digo, sim, mas, não!"
-    "Você fica encarando a Palma tentar argumentar com o tio dela sobre? Seja lá o que ela tá tentando argumentar sobre por mais uns 5 minutos e você tem certeza de que isso não vai progredir pra lugar nenhum nessa situação"
+    "Você fica encarando a Palma tentar argumentar com o tio dela sobre? 
+    Seja lá o que ela tá tentando argumentar sobre por mais uns 5 minutos e 
+    você tem certeza de que isso não vai progredir pra lugar nenhum nessa situação"
+
     "Você tenta chamar a atenção do senhor… uh, como era?"
+
     castor "Pierre"
+
     "Claro, do senhor Pierre"
+
     "Você aponta pro chão onde tá a plaquinha com o poema"
+
     castor "...?"
+
     "Ele vira pra Palma de leve"
-    castor "Lagarte tá tentando mandar em mim?"
+    if genero == 2:
+        castor "Lagarte tá tentando mandar em mim?"
+    elif genero == 1:
+        castor "Lagarta tá tentando mandar em mim?"
+    else:
+        castor "Lagarto tá tentando mandar em mim?"
+
     dragao "Uh, tio, eu acho que você devia escutar"
-    "Pierre parece extremamente insatisfeito com ter que escutar, mas ele acaba se abaixando pra dar uma olha no que é que tá no chão eventualmente"
+
+    "Pierre parece extremamente insatisfeito com ter que escutar, m
+    as ele acaba se abaixando pra dar uma olha no que é que tá no chão eventualmente"
+
     "Ele lê o poema inteiro"
+
     castor "..."
+
     castor "... Mamãe?"
+
     "Não, você tem quase certeza de que é um poema"
+
     castor "Eu esqueci"
+
     castor "Que dia é hoje mesmo?"
+
     castor "Eu ainda preciso terminar de carvar"
-    dragao "Carvar o que?"
+
+    dragao "Cavar o que?"
+
     castor "O crânio"
+
     "???"
+
     "Ok, ele começou a correr na direção da casa"
+
     "A Palma olha na sua direção como se esperasse que você fizesse alguma coisa"
+
     "Ok, você vai salvar esse momento familiar seja isso a última coisa que você faça"
+
     "Você mata as pernas dele"
+
     #[Sprite do Pierre fica mais baixo]
     "O castorzão cai no chão"
+
     "Ele passa um segundinho encarando a terra enquanto presumivelmente reavalia toda decisão que já tomou em morte"
+
     castor "Morto"
+
     "É sim grandão, dá pra se acalmar agora?"
+
     "Você encara a Palma"
+
     "Ela encara você de volta e não faz nada"
+
     "Você encara a Palma com mais tenacidade"
+
     dragao "Oh! Claro"
+
     dragao "Olha, tio"
+
     dragao "A gente precisa conversar"
+
     dragao "Eu sei que você não é exatamente muito dessas coisas de família e tudo"
+
     dragao "Mas eu te trouxe aqui por um motivo"
+
     castor "..."
+
     castor "... Certo"
+
     "Oh, progresso"
+
     dragao "Você tava falando de carvar um crânio"
+
     dragao "Você pode elaborar?"
+
     castor "... Certo"
+
     #[Tela branca]
+    scene bg branco with fade
     castor "Era um presente pra mamãe"
+
     dragao "Era um presente?"
+
     dragao "Vovó tava morta, não tava?"
+
     castor "Era uma homenagem"
+
     castor "Quando ela morreu a gente leu alguns poemas dela em família"
+
     castor "Ela era uma artista"
+
     castor "Ela ia querer ser homenageada com arte"
+
     castor "Então a Aurora me ajudou"
+
     castor "A esposa do meu irmão?" 
+    scene bg entrada
+    show palma normal at left
+    show castor cp 
     #[Tela volta ao normal]
     dragao "Eu conheço a minha tia"
+
     castor "Claro"
+
     #[Tela branca]
+    scene bg branco
     castor "Ela era a única outra artista de verdade na casa"
+
     castor "Então a gente pensou numa homenagem"
+
     #[Silhueta dos crânios]
     castor "Eu parti o crânio da mamãe em dois"
+
     castor "Cada um ficou com uma metade"
+
     #[Sprite dos crânios]
+
+    show cranio1_aurora at right 
+    show cranio2_pierre at left
     castor "E nós dois decoramos"
+
     castor "Era uma surpresa pra família, a gente queria que fosse exposto na sala"
+
     castor "Mas eu não tive tempo de dar os toques finais"
+
     #[Tela normal]
+    scene bg entrada
+    show palma normal at left
+    show castor cp 
+
     dragao "Oh? Não tava pronta?"
+
     dragao "A gente expôs mesmo assim"
+
     castor "Com licença"
+
     castor "O crânio foi exposto?"
+
     castor "Não estava pronto"
+
     dragao "Ficou na sala por um tempo"
+
     dragao "Você ia procurar por ele onde?"
+
     castor "Na minha oficina"
+
     dragao "Claro"
+
     dragao "Ok, mas"
+
     dragao "Digamos que supostamente"
+
     dragao "Por algum motivo não especificado"
+
     dragao "Ele não estivesse na sua oficina"
+
     dragao "Você tem alguma ideia de onde mais ele poderia estar?"
+
     castor "Na minha oficina"
+
     dragao "Ok mas se ele não estivesse lá?"
+
     castor "Na minha oficina"
+
     dragao "Ok mas e se por acaso você procurasse e ele não estivesse lá"
+
     castor "Na minha oficina"
+
     dragao "Ok mas tomemos como pressuposto que por algum motivo não relevante pro contexto atual ele não estivesse lá, onde você procuraria?"
     castor "Na minha oficina"
-    dragao "Certo, mas e se você fosse até a oficina, passasse um tempo considerável revirando o lugar inteiro em busca do crânio, e chegasse por si próprio na conclusão de que -"
+
+    dragao "Certo, mas e se você fosse até a oficina, passasse um tempo considerável revirando o lugar inteiro em busca do crânio, 
+    e chegasse por si próprio na conclusão de que -"
+
     "Você não faz a mínima ideia do que tá acontecendo"
+
     "Aparentemente a Palma tava procurando por esse crânio? Mas parece que o castor não tem como ajudar ela"
+
     "Você chama o nome da Palma"
+
     "O que exatamente vocês tão fazendo aqui?"
+
     dragao "Oh, uh"
+
     dragao "Desculpa, eu acho que o que eu tava tentando fazer não deu certo"
+
     "Jura?"
+
     dragao "É, eu juro"
+
     dragao "Será que tem como…"
+
     "Ela faz um sinal que parece muito com uma criança enjoada jogando um brinquedo no chão"
-    "Você continua não sendo fluente em libras mas você tem quase certeza de que isso significa que ela quer que você dê um slam dunk no tio dela de volta pra terra"
+
+    "Você continua não sendo fluente em libras mas você tem quase certeza de que isso significa que ela quer que 
+    você dê um slam dunk no tio dela de volta pra terra"
+
     "Então você chega mais perto do tio pra ver o que ele tem em mente"
+    hide palma
+
     "Ele realmente fica bem engraçadinho tão baixinho assim"
+
     castor "Hunf"
+
     "Você pergunta qual o que ele pretende fazer agora"
+
     castor "Morto?"
+
     castor "Dar uma volta?"
+
     "Não parece uma ideia ruim"
+
     "Você pergunta pra ele como foi que ele morreu"
+
     castor "É uma história engraçada"
+
     castor "Eu saí de casa pra cortar madeira"
+
     castor "Eu sou um lenhador"
+
     "Você percebeu"
+
     castor "Foi quando começou uma tempestade"
+
     castor "O Conselho de Castores Madeireiros (CCM) não recomenda que ninguém vá cortar madeira durante uma tempestade"
+
     castor "Mas esse é um país livre"
+
     castor "E eu sou forte"
+
     castor "Então eu fui mesmo assim"
+
+    scene vinhetapierre with dissolve
     #[Vinheta da morte aparece]
+    #parei aqui
     castor "A parte ruim de cortar madeira quando tem uma tempestade por aí é essa"
     castor "Você não é o único lenhador por aí"
     castor "A Mãe Natureza também estava procurando troncos naquela noite"
