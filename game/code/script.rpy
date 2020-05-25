@@ -365,7 +365,7 @@ label cemiterio_0:
     with None
     "Onde é que você tava mesmo?"
 
-    show abelarde cranio at truecenter
+    show abelarde cranio at top
 
     "Você ergue o crânio aos céus, os últimos pulsos de vida dele batucando contra os seus dedos"
 
@@ -404,7 +404,7 @@ label cemiterio_0:
 
     "Você solta joga o crânio do cervo na terra, seja por respeito à vontade dele ou por causa do susto mesmo"
 
-    hide abelarde
+    show abelarde cranio at center with move
 
     "Os cenho do cervo se deforma na melhor imitação de raiva que uma pilha de ossos consegue fazer 
     quando ele cai das suas mãos direto no chão lamacento"
