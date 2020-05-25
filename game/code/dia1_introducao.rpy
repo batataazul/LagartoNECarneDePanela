@@ -32,5 +32,5 @@ menu:
         jump dia_1_com_abelarde
     "Passar o dia com a Palma":
         $ePalma += 1
-        #jump dia_1_palma
-        return
+        jump dia_1_palma
+        
