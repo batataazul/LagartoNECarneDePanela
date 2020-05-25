@@ -18,7 +18,8 @@ define genero = False
 label start:
     #começo dia 0
     
-    scene bg floresta
+    scene bg entrada desfoque
+    play music "music/Musica-1.ogg"
     "Era uma das últimas tardes mornas do começo do outono. 
     Uma brisa leve bagunçava suas roupas e os raios de sol banhavam o mundo inteiro em laranja."
 
@@ -150,7 +151,7 @@ label floresta_3:
 
     "Guia da floresta" "Sim, o lugar certo fica a um tempinho daqui."
 
-    "A moça te dá as costas começa a entrar mais fundo na floresta, a implicação óbvia é que você devia estar seguindo ela, 
+    "A moça te dá as costas e começa a entrar mais fundo na floresta, a implicação óbvia é que você devia estar seguindo ela, 
     então é isso que você faz"
 
     "??? da floresta" "Minha nossa, que falta de educação! Eu esqueci de te dizer o meu nome!"
@@ -261,7 +262,7 @@ label casaOut_0:
 
     "Dizer que o cemitério era grande seria um eufemismo"
 
-    scene bg cemiterio with dissolve
+    scene bg cemiterio dia with dissolve
 
     "Era só um monte de túmulos espalhados por uma área livre de árvores."
 
@@ -365,7 +366,7 @@ label cemiterio_0:
     with None
     "Onde é que você tava mesmo?"
 
-    show abelarde cranio at truecenter
+    show abelarde cranio at top
 
     "Você ergue o crânio aos céus, os últimos pulsos de vida dele batucando contra os seus dedos"
 
@@ -404,7 +405,7 @@ label cemiterio_0:
 
     "Você solta joga o crânio do cervo na terra, seja por respeito à vontade dele ou por causa do susto mesmo"
 
-    hide abelarde
+    show abelarde cranio at center with move
 
     "Os cenho do cervo se deforma na melhor imitação de raiva que uma pilha de ossos consegue fazer 
     quando ele cai das suas mãos direto no chão lamacento"
@@ -457,7 +458,7 @@ label cemiterio_0:
 
     "Você explica pra ele que você não pode exatamente jogar ele no chão, visto que não foi exatamente pra isso que você foi chamado"
 
-    cervo "Ah, é? Então pra que foi que você foi chamado"
+    cervo "Ah, é? Então pra que foi que você foi chamado?"
 
     "Você explica que foi pra trazer Abelarde de volta pra irmã dele"
 
@@ -545,7 +546,7 @@ label cemiterio_0:
     você consegue desenterrar o resto do esqueleto sem muitos problemas"
 
     "Você aproveita pra pegar um manto do varal próximo. Mesmo que não tenha mais nada pra esconder, 
-    a maior parte dos recém revividos se sentem extremamente expostas quando os seus ossos ficam à mercê do vento"
+    a maior parte dos recém revividos se sentem extremamente expostos quando os seus ossos ficam à mercê do vento"
 
     cervo "Vendo de longe, eu sempre achei que eu fosse um pouquinho mais alto do que isso"
 
@@ -759,6 +760,8 @@ label casaIn_0:
 
     "Você agradece antes de dar boa noite"
 
+    hide palma with moveinright
+
     "O que é um pouquinho estranho já que o sol só tá começando a se pôr agora, mas você sempre preferiu ir dormir cedo"
 
     "Você se deita na cama, ela é surpreendentemente confortável"
@@ -883,7 +886,7 @@ label quarto_1:
 
     "Parece que funciona"
 
-    jump introducao
+    jump introducao_dia1
 
 
 
