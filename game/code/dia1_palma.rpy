@@ -115,6 +115,8 @@ label cozinha_0:
     "Oh, claro"
 
     "Você se levanta e Palma corre logo em direção à porta"
+    
+    scene bg
 
     "Você segue ela até à entrada da casa"
 

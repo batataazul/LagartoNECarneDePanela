@@ -1,4 +1,5 @@
 label introducao_dia1:
+    scene bg hall with fade
     "TECO" with hpunch
 
     "A parte mais surpreendente da sua manhã é quando você acorda e um pássaro realmente se tacou na sua janela"

@@ -759,6 +759,8 @@ label casaIn_0:
 
     "Você agradece antes de dar boa noite"
 
+    hide palma with moveinright
+
     "O que é um pouquinho estranho já que o sol só tá começando a se pôr agora, mas você sempre preferiu ir dormir cedo"
 
     "Você se deita na cama, ela é surpreendentemente confortável"
