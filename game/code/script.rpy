@@ -19,6 +19,7 @@ label start:
     #começo dia 0
     
     scene bg entrada desfoque
+    play music "music/Musica-1.ogg"
     "Era uma das últimas tardes mornas do começo do outono. 
     Uma brisa leve bagunçava suas roupas e os raios de sol banhavam o mundo inteiro em laranja."
 

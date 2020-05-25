@@ -1,4 +1,5 @@
 ﻿label dia_1_palma:
+    play music "music/Musica-3.ogg"
     "Você fala a palavra capitalismo em voz alta e isso fica por isso"
 
     "Você decide que seja lá o que cada um dos dois queira que você faça hoje, pelo menos a Palma vai te pagar"

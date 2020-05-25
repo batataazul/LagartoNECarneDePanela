@@ -1,6 +1,6 @@
 label dia_1_com_abelarde:
     scene bg hall
-
+    play music "music/Musica-4.ogg"
     if genero == 0:
         "Você decide que você tá se sentindo caridoso"
     elif genero == 1:
