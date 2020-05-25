@@ -531,33 +531,69 @@ label arvore_0:
 
     scene vinhetapierre with dissolve
     #[Vinheta da morte aparece]
-    #parei aqui
+
     castor "A parte ruim de cortar madeira quando tem uma tempestade por aí é essa"
+
     castor "Você não é o único lenhador por aí"
+
     castor "A Mãe Natureza também estava procurando troncos naquela noite"
+
     castor "E aparentemente Ela tava interessada numa árvore bem próxima de onde eu tava"
+
     castor "A última coisa que eu lembro de ver foi o tronco caindo em cima de mim"
+
     castor "E eu morri"
+    scene bg entrada with fade
+    show castor cp at center
     #[Vinheta da morte desaparece]
     "Você se pergunta porque exatamente ele acreditava que a morte tinha sido engraçada"
+
     "Você pergunta se ele quer as pernas dele de volta"
+
     castor "Sim"
-    "Você pega elas de onde elas tinham caído no chão. Alinhar elas com o resto dos ossos é um pouquinho constrangedor com ele acordado, mas em pouco tempo elas tão conectadas de novo"
+
+    "Você pega elas de onde elas tinham caído no chão. Alinhar elas com o resto dos ossos é um pouquinho constrangedor com ele acordado, 
+    mas em pouco tempo elas tão conectadas de novo"
     #[Sprite do Pierre volta ao normal]
     "Você pergunta se ele pretende dar aquela volta agora"
+
     castor "..."
+
     castor "... Sim"
+
     castor "Eu acho que eu vou, sim"
+
     "Ele acena pra Palma antes de se virar e entrar nas profundezas da floresta"
+    
+    hide castor with dissolve
+
     "Você vira pra Palma e pergunta? O que foi isso?"
+    
+    show palma normal at center
+
     dragao "Oh, uh"
+
     dragao "Bem"
+
     dragao "Eu acho que eu não sou muito boa nesse negócio de falar com os mortos"
+
     "Essa afirmação não te surpreende"
+
     "Você diz pra Palma que você realmente gostaria de ir dormir agora"
+
     dragao "Oh, claro"
+
     dragao "Eu imagino que reviver alguém seja um processo bem cansativo"
+
     "Oh, isso ela pode ter certeza que é"
+    scene bg hall
     #[BG hall principal]
     "Você vai pro seu quarto e ela oferece te deixar mais um pedaço de torta pra você não ir dormir com fome"
+
     "Você cai no sono antes da torta chegar"
+    scene bg preto
+
+    jump intro_dia2
+
+label intro_dia2:
+    return
