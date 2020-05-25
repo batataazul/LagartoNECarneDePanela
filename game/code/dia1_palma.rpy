@@ -591,7 +591,7 @@ label arvore_0:
     "Você vai pro seu quarto e ela oferece te deixar mais um pedaço de torta pra você não ir dormir com fome"
 
     "Você cai no sono antes da torta chegar"
-    scene bg preto
+    scene bg black
 
     jump intro_dia2
 

@@ -52,6 +52,7 @@ label dia_1_com_abelarde:
     cervo "Eu passei!"
     cervo "A noite inteira!"
     cervo "Andando!"
+    show bg cemiterio dia
     cervo "E eu pensei em jogar mais pedras na sua janela em diversas ocasiões diferentes durante a noite"
     cervo "E mesmo assim eu não joguei"
     cervo "Então eu sinto que você me deve um agradecimento"
@@ -108,6 +109,7 @@ label dia_1_com_abelarde:
 
     "Você segue o Abelarde pro lado de dentro"
     "Você dá uma olhada ao redor, parece que vocês foram parar em alguma espécie de ateliê?"
+    show bg hall
     cervo "Entendeu?"
     "O que?"
 
@@ -241,7 +243,7 @@ label dia_1_com_abelarde:
     "Oh, ok"
 
     hide abelarde
-    hide aurora
+    hide gamba crop
     scene bg black
 
     gamba "Meus pulmões, que antigamente só guardavam floresta, agora já eram quase que inteiramente vácuo"
