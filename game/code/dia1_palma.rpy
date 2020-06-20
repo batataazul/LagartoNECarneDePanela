@@ -28,7 +28,7 @@
 
     "Ela te encara cheia de expectativa, esperando que você experimente um pedaço da torta"
 
-    "Você aponta pro forno? Que é de onde tá vindo o cheiro?"
+    "Você aponta pro forno, que é de onde tá vindo o cheiro (?)"
 
     dragao "Oh, claro"
 
@@ -36,13 +36,13 @@
 
     dragao "Na mesa"
     if genero == 2:
-        "Ela ainda demora uns 5 segundos pra se levantar e ir pegar a torta depois desse último comentário. 
+        "Ela ainda demora uns 5 segundos pra se levantar e ir pegar a torta depois desse último comentário.
         Em pouco tempo, você tá sentade na mesa e tem uma fatia generosa de torta com um recheio vermelho brilhante na sua frente"
     elif genero == 1:
-        "Ela ainda demora uns 5 segundos pra se levantar e ir pegar a torta depois desse último comentário. 
+        "Ela ainda demora uns 5 segundos pra se levantar e ir pegar a torta depois desse último comentário.
         Em pouco tempo, você tá sentada na mesa e tem uma fatia generosa de torta com um recheio vermelho brilhante na sua frente"
-    else: 
-        "Ela ainda demora uns 5 segundos pra se levantar e ir pegar a torta depois desse último comentário. 
+    else:
+        "Ela ainda demora uns 5 segundos pra se levantar e ir pegar a torta depois desse último comentário.
         Em pouco tempo, você tá sentado na mesa e tem uma fatia generosa de torta com um recheio vermelho brilhante na sua frente"
 
     "Palma senta na cadeira dela e recarrega o olhar expectativo que ela tinha pouco tempo atrás"
@@ -86,7 +86,7 @@ label cozinha_0:
 
     show poema lenhador at truecenter
     pause
-    hide poema lenhador 
+    hide poema lenhador
     with dissolve
 
     "Você pergunta se ela espera que você avalie o poema dela"
@@ -106,7 +106,7 @@ label cozinha_0:
     "Quando você leva outra garfada de torta até a boca você só sente o sabor metálico do talher"
 
     "Você olha pro prato, parece que a torta acabou"
-    if genero == 2: 
+    if genero == 2:
         dragao "Pronte pra ir? Pode deixar que eu cuido do prato depois"
     elif genero == 1:
         dragao "Pronta pra ir? Pode deixar que eu cuido do prato depois"
@@ -116,12 +116,12 @@ label cozinha_0:
     "Oh, claro"
 
     "Você se levanta e Palma corre logo em direção à porta"
-    
+
     scene bg entrada with fade
 
     show palma normal at center with dissolve
 
-    "Você segue ela até à entrada da casa"
+    "Você segue ela até a entrada da casa"
 
     "Ela te guia da clareira do quintal até uma árvore específica só longe o bastante da casa pra começar a te deixar desconfortável"
 
@@ -152,7 +152,7 @@ label arvore_0:
 
     dragao "Sabe?"
 
-    "Você não se atreve a dizer que sabe exatamente do que ela tá falando, 
+    "Você não se atreve a dizer que sabe exatamente do que ela tá falando,
     mas pela expressão que ela tá fazendo parece que você provavelmente devia"
 
     "Só falta ela dar uma piscadela pra mostrar que tem alguma coisa ali que você devia ter sacado"
@@ -187,11 +187,11 @@ label arvore_0:
 
     "Então eles deixaram ele jogado no meio da floresta do lado de uma árvore"
 
-    "Aproveitaram e botaram um machado do lado pra ter certeza de que qualquer aventureiro que 
-    passasse pudesse perceber que ele era sim um lenhador e pudesse elogiar as habilidades 
+    "Aproveitaram e botaram um machado do lado pra ter certeza de que qualquer aventureiro que
+    passasse pudesse perceber que ele era sim um lenhador e pudesse elogiar as habilidades
     de contação de histórias por meio de design de ambiente da família"
 
-    "Talvez tenham pensado até em enquadrar uma cartinha do lado explicando como ele morreu, 
+    "Talvez tenham pensado até em enquadrar uma cartinha do lado explicando como ele morreu,
     pra ter certeza absoluta de que ninguém conseguiria olhar praquele negócio e interpretar algum detalhe da história de maneira errô -"
 
     "Oh, pera, tem mesmo uma cartinha enquadrada do lado"
@@ -220,7 +220,7 @@ label arvore_0:
 
     "Você sente que ele morreu já faz um bom tempo, você sente quase como se o corpo dele tivesse começado a criar raízes no chão"
 
-    "Você se assusta com a quantidade de massa peitoral que ele ainda tem? 
+    "Você se assusta com a quantidade de massa peitoral que ele ainda tem?
 
     Uh, você para de tatear o peito dele antes que a Palma comece a achar estranho"
 
@@ -230,7 +230,7 @@ label arvore_0:
 
     show palma normal at left with move
 
-    "Bom dia grandão"
+    "Bom dia, grandão"
 
     show castor cp with pixellate
 
@@ -242,7 +242,7 @@ label arvore_0:
 
     castor "Quem?"
 
-    "Você acha que a melhor resposta pra essa pergunta é que é você mesmo, 
+    "Você acha que a melhor resposta pra essa pergunta é que é você mesmo,
     mas você não acha que é isso que o castorzão tá querendo ouvir então você só se cala"
     dragao "Eu?"
 
@@ -272,7 +272,7 @@ label arvore_0:
 
     dragao "Tio! Você tá morto!"
 
-    "O castor solta a fachada estóica por um segundo pra encarar a própria mão. 
+    "O castor solta a fachada estóica por um segundo pra encarar a própria mão.
     Ele balança um ossinho que protubera pra fora do buraco de onde o dedo dele devia continuar"
     castor "... Machucadinho"
 
@@ -283,8 +283,8 @@ label arvore_0:
     dragao "Não!"
 
     dragao "Eu digo, sim, mas, não!"
-    "Você fica encarando a Palma tentar argumentar com o tio dela sobre? 
-    Seja lá o que ela tá tentando argumentar sobre por mais uns 5 minutos e 
+    "Você fica encarando a Palma tentar argumentar com o tio dela sobre?
+    Seja lá o que ela tá tentando argumentar sobre por mais uns 5 minutos e
     você tem certeza de que isso não vai progredir pra lugar nenhum nessa situação"
 
     "Você tenta chamar a atenção do senhor… uh, como era?"
@@ -334,7 +334,7 @@ label arvore_0:
 
     "A Palma olha na sua direção como se esperasse que você fizesse alguma coisa"
 
-    "Ok, você vai salvar esse momento familiar seja isso a última coisa que você faça"
+    "Ok, você vai salvar esse momento familiar, seja isso a última coisa que você faça"
 
     "Você mata as pernas dele"
 
@@ -393,10 +393,10 @@ label arvore_0:
 
     castor "Então a Aurora me ajudou"
 
-    castor "A esposa do meu irmão?" 
+    castor "A esposa do meu irmão?"
     scene bg entrada
     show palma normal at left
-    show castor cp 
+    show castor cp
     #[Tela volta ao normal]
     dragao "Eu conheço a minha tia"
 
@@ -415,7 +415,7 @@ label arvore_0:
 
     #[Sprite dos crânios]
 
-    show cranio1_aurora at right 
+    show cranio1_aurora at right
     show cranio2_pierre at left
     castor "E nós dois decoramos"
 
@@ -426,7 +426,7 @@ label arvore_0:
     #[Tela normal]
     scene bg entrada
     show palma normal at left
-    show castor cp 
+    show castor cp
 
     dragao "Oh? Não tava pronta?"
 
@@ -469,7 +469,7 @@ label arvore_0:
     dragao "Ok mas tomemos como pressuposto que por algum motivo não relevante pro contexto atual ele não estivesse lá, onde você procuraria?"
     castor "Na minha oficina"
 
-    dragao "Certo, mas e se você fosse até a oficina, passasse um tempo considerável revirando o lugar inteiro em busca do crânio, 
+    dragao "Certo, mas e se você fosse até a oficina, passasse um tempo considerável revirando o lugar inteiro em busca do crânio,
     e chegasse por si próprio na conclusão de que -"
 
     "Você não faz a mínima ideia do que tá acontecendo"
@@ -492,7 +492,7 @@ label arvore_0:
 
     "Ela faz um sinal que parece muito com uma criança enjoada jogando um brinquedo no chão"
 
-    "Você continua não sendo fluente em libras mas você tem quase certeza de que isso significa que ela quer que 
+    "Você continua não sendo fluente em libras mas você tem quase certeza de que isso significa que ela quer que
     você dê um slam dunk no tio dela de volta pra terra"
 
     "Então você chega mais perto do tio pra ver o que ele tem em mente"
@@ -553,7 +553,7 @@ label arvore_0:
 
     castor "Sim"
 
-    "Você pega elas de onde elas tinham caído no chão. Alinhar elas com o resto dos ossos é um pouquinho constrangedor com ele acordado, 
+    "Você pega elas de onde elas tinham caído no chão. Alinhar elas com o resto dos ossos é um pouquinho constrangedor com ele acordado,
     mas em pouco tempo elas tão conectadas de novo"
     #[Sprite do Pierre volta ao normal]
     "Você pergunta se ele pretende dar aquela volta agora"
@@ -565,11 +565,11 @@ label arvore_0:
     castor "Eu acho que eu vou, sim"
 
     "Ele acena pra Palma antes de se virar e entrar nas profundezas da floresta"
-    
+
     hide castor with dissolve
 
     "Você vira pra Palma e pergunta? O que foi isso?"
-    
+
     show palma normal at center
 
     dragao "Oh, uh"

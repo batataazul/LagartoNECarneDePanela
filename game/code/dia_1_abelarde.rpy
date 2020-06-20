@@ -108,7 +108,7 @@ label dia_1_com_abelarde:
         "Arrombando uma casa pra qual você foi literalmente convidade"
 
     "Você segue o Abelarde pro lado de dentro"
-    "Você dá uma olhada ao redor, parece que vocês foram parar em alguma espécie de ateliê?"
+    "Você dá uma olhada ao redor, parece que vocês foram parar em alguma espécie de ateliê"
     show bg hall
     cervo "Entendeu?"
     "O que?"
@@ -348,10 +348,10 @@ label dia_1_com_abelarde:
 
     "É o mesmo poema que o Abelarde tinha te mostrado a caminho daqui"
     "Os detalhes sobre envenenar e tinta são um pouquinho mais familiares dessa vez"
-    "Parece que ele é vagamente relacionado ao que aconteceu com a tia dele?"
+    "Parece que ele é vagamente relacionado ao que aconteceu com a tia dele (?)"
     cervo "É uma explicação exata do que aconteceu com a minha tia"
     cervo "Foi escrito pela minha avó, dona daquele crânio que ela mencionou"
-    cervo "Na época em que a minha tia morreu, meu familiares não pensavam nada demais sobre isso"
+    cervo "Na época em que a minha tia morreu, meus familiares não pensavam nada demais sobre isso"
     cervo "Mas minha avó sabia de muito mais do que a gente achava que ela sabia"
     "Huh"
     cervo "Eu tô tentando descobrir algumas coisas a mais sobre ela"

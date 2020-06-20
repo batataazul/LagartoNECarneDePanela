@@ -5,7 +5,7 @@ define lagarto = Character("[name]")
 define cervo = Character("Abelarde", color="#1197a9")
 define dragao = Character("Palma",color="#aa423e")
 define gamba = Character("Aurora", color="#7702f1")
-define castor = Character("Pierre", color="#ffec05") 
+define castor = Character("Pierre", color="#ffec05")
 
 #variáveis úteis
 define ePalma = 0
@@ -17,15 +17,15 @@ define genero = False
 
 label start:
     #começo dia 0
-    
+
     scene bg entrada desfoque
     play music "music/Musica-1.ogg"
-    "Era uma das últimas tardes mornas do começo do outono. 
+    "Era uma das últimas tardes mornas do começo do outono.
     Uma brisa leve bagunçava suas roupas e os raios de sol banhavam o mundo inteiro em laranja."
 
     "Quer dizer, é assim que você descreveria o clima antes de entrar na floresta."
 
-    "Infelizmente, o labirinto de troncos acabou com todo e qualquer sussurro da brisa confortável que era anteriormente tão marcante." 
+    "Infelizmente, o labirinto de troncos acabou com todo e qualquer sussurro da brisa confortável que era anteriormente tão marcante."
 
     "O céu de folhas esmaeceu completamente a quentura do dia, substituindo o laranja do sol pelos azuis e verdes escuros da vegetação local."
 
@@ -35,7 +35,7 @@ label start:
 
     "Ughhhhhhhh"
 
-    "De acordo com o seu contato, era só “Seguir pela floresta”. 
+    "De acordo com o seu contato, era só “Seguir pela floresta”.
     O problema é que você já tinha se disposto a seguir pela floresta já fazia pelo menos uma hora."
 
     "Agora onde tinha disposição pra fazer um trabalho bem feito, só resta uma poça de suor."
@@ -51,7 +51,7 @@ menu:
 label floresta_1:
     "De qualquer modo, é nisso que dá ser necromante profissional"
 
-    "Quando não se tá conversando com uma mulher desesperada pra ver o filho de novo, uma autoridade local que quer te prender, 
+    "Quando não se tá conversando com uma mulher desesperada pra ver o filho de novo, uma autoridade local que quer te prender,
     ou com um cara que desesperadamente quer namorar um esqueleto, é isso que sobra."
 
     "Caminhar"
@@ -60,7 +60,7 @@ label floresta_1:
 
     "Falando nisso, parece que você acabou de caminhar em alguma coisa, bom trabalho."
 
-    "Você massageia o seu nariz onde tá doendo antes de confrontar a coisa que aparentemente 
+    "Você massageia o seu nariz onde tá doendo antes de confrontar a coisa que aparentemente
     você tava fundo demais nos seus pensamentos pra perceber"
 
     show palma normal at center
@@ -69,8 +69,8 @@ label floresta_1:
 
     "Moça da floresta?" "Você por acaso é quem eu contratei?"
 
-    "Você se dá direito de esperar meio segundo antes de responder, 
-    tanto pra evitar gritar com a moça pelas informações precárias, 
+    "Você se dá direito de esperar meio segundo antes de responder,
+    tanto pra evitar gritar com a moça pelas informações precárias,
     quanto pra amaciar o seu nariz um pouquinho mais."
 
     "Ok, ok. Você diz pra ela que sim, você provavelmente é quem ela contratou."
@@ -83,9 +83,7 @@ label floresta_1:
 
     "Cliente da floresta!" "Eu tava dando umas voltas pra ver se te encontrava"
 
-    "Moça da floresta?" "E aqui tá você!"
-
-    "Moça da floresta?" "E aqui tá você!"
+    "Cliente da floresta!" "E aqui tá você!"
 
     "Cliente da floresta!" "Mas é um prazer te conhecer, senhor!"
 
@@ -97,7 +95,7 @@ label floresta_1:
 
 menu:
     "Uh":
-        pass 
+        pass
 
 label floresta_2:
 
@@ -109,11 +107,11 @@ label floresta_2:
 
     "Desrespeitosa da floresta" "Pera, isso foi racista, né?"
 
-    "Desrespeitosa da floresta:" "Ugh! Desculpa!"
+    "Desrespeitosa da floresta" "Ugh! Desculpa!"
 
-    "Desrespeitosa da floresta" "Ok, eu vou ser sincera eu absolutamente não faço ideia, ok?"
+    "Desrespeitosa da floresta" "Ok, eu vou ser sincera. Eu absolutamente não faço ideia, ok?"
 
-    "Desrespeitosa da floresta" "Que tal assim, você facilita as coisas pra nós dois e só me diz do que você prefere que eu te chame."
+    "Desrespeitosa da floresta" "Que tal assim? Você facilita as coisas pra nós dois e só me diz do que você prefere que eu te chame."
 
 menu Genero:
     "Ele":
@@ -140,7 +138,7 @@ label floresta_3:
 
     "Vocês passam uns dois segundos, isso é, uns dois segundos a mais do que seria confortável, se encarando."
 
-    "Você percebe pela curva na boca dela e pelo óbvio desconforto na postura 
+    "Você percebe pela curva na boca dela e pelo óbvio desconforto na postura
     que se você deixar ela começar a falar de novo ela vai começar a tentar se desculpar de novo por deixar as coisas esquisitas."
 
     "Antes que isso possa acontecer, você lembra ela de que você tá aqui pra fazer algum…"
@@ -151,7 +149,7 @@ label floresta_3:
 
     "Guia da floresta" "Sim, o lugar certo fica a um tempinho daqui."
 
-    "A moça te dá as costas e começa a entrar mais fundo na floresta, a implicação óbvia é que você devia estar seguindo ela, 
+    "A moça te dá as costas e começa a entrar mais fundo na floresta, a implicação óbvia é que você devia estar seguindo ela,
     então é isso que você faz"
 
     "??? da floresta" "Minha nossa, que falta de educação! Eu esqueci de te dizer o meu nome!"
@@ -174,7 +172,7 @@ label floresta_3:
 
     "Parece que vocês vão deixar os craquelados desconfortavelmente altos das folhas no chão se tornarem donos do ambiente sonoro."
 
-    "Mas você já escutou os barulhos da floresta por tempo demais e pode confirmar, 
+    "Mas você já escutou os barulhos da floresta por tempo demais e pode confirmar,
     com certeza absoluta, que eles perdem o charme depois de menos de 5 minutos"
 
     "Você pergunta se ela tem uma família grande"
@@ -208,11 +206,11 @@ label floresta_3:
     "Então pelo visto ela espera que você revi- Oh, opa?"
 
     scene bg entrada with dissolve
-    
-    "Você começa a questionar a qualidade da sua vista. Você não somente não notou a presença da Palma até literalmente se tacar de nariz nela, 
+
+    "Você começa a questionar a qualidade da sua vista. Você não somente não notou a presença da Palma até literalmente se tacar de nariz nela,
     como você também só notou o literal maior casebre que você já viu na sua vida ao chegar do lado dele"
 
-    "Ou a floresta não andou recebendo crédito o bastante pelo quão densa ela é, 
+    "Ou a floresta não andou recebendo crédito o bastante pelo quão densa ela é,
     ou você absolutamente devia falar com alguém sobre algum problema nos seus olhos"
 
     "Você pergunta pra Palma se esse casarão é onde ela mora"
@@ -229,7 +227,7 @@ label floresta_3:
 
     dragao "E você, uh, não tá aqui pra me ouvir me gabar do tamanho da minha casa"
 
-    dragao "Você tá aqui pra fazer me ajudar com um negócio!"
+    dragao "Você tá aqui pra me ajudar com um negócio!"
 
     dragao "E esse negócio fica do lado de fora da minha casa"
 
@@ -244,7 +242,7 @@ menu:
         dragao "Digo, não que eu saia enterrando gente em todo lugar, é só uma expressão"
 
         dragao "Um dama precisa de um sistema organizado!"
-    
+
     "Algum cadáver enfiado numa árvore?":
 
         dragao "Agora que você menciona, talvez"
@@ -257,7 +255,7 @@ label casaOut_0:
 
     dragao "Por favor"
 
-    "Vocês começam a dar uma volta ao redor da casa. Não fosse a quantidade assustadora de lama ao redor, 
+    "Vocês começam a dar uma volta ao redor da casa. Não fosse a quantidade assustadora de lama ao redor,
     você se sentiria confortável chamando o lugar de mansão"
 
     "Dizer que o cemitério era grande seria um eufemismo"
@@ -290,7 +288,7 @@ label casaOut_0:
 
     "Você pergunta pra ela o que aconteceu"
 
-    dragao " Ah, é, uh"
+    dragao "Ah, é, uh"
 
     dragao "É, uh, é difícil? Falar sobre isso?"
 
@@ -308,7 +306,7 @@ label casaOut_0:
 
     dragao "Oh, claro!"
 
-    dragao " Eu tenho umas pás justamente pra esse tipo de coisa aqui perto, um segundinho!"
+    dragao "Eu tenho umas pás justamente pra esse tipo de coisa aqui perto, um segundinho!"
 
     "Ela pega duas pás que estavam apoiadas em um dos outros túmulos"
 
@@ -316,7 +314,7 @@ label casaOut_0:
 
     dragao "Opa, bom dia dorminhoco!"
 
-    "Você enfia suas mãos na terra e segura o crânio que apareceu pelo buraco do olho. 
+    "Você enfia suas mãos na terra e segura o crânio que apareceu pelo buraco do olho.
     Arrancar ele da terra é mais complicado do que normalmente é, por algum motivo."
 
     hide palma
@@ -360,7 +358,7 @@ label cemiterio_0:
 
     dragao "Pra nós três!"
 
-    show palma normal at left 
+    show palma normal at left
     with move
     hide palma
     with None
@@ -374,19 +372,19 @@ label cemiterio_0:
 
     "O que isso torna você então? E as abominações que você ergue de volta da terra?"
 
-    "Seriam elas inteiramente sem futuro? 
-    Tendo completado sua jornada e depois trazidas de volta sem ter mais qualquer motivo temático para continuarem caminhando? 
+    "Seriam elas inteiramente sem futuro?
+    Tendo completado sua jornada e depois trazidas de volta sem ter mais qualquer motivo temático para continuarem caminhando?
     Como uma franquia de livros que não consegue parar de lançar sequências?"
 
-    "Há quem diga até que um morto vivo nem mesmo devia ser considerado uma continuação do ser que era antes de morrer. 
+    "Há quem diga até que um morto vivo nem mesmo devia ser considerado uma continuação do ser que era antes de morrer.
     Ultrajado de tudo aquilo que o tornava vivo, um punhado de ossos não pode voltar a caminhar sem perder alguma coisa no processo"
 
-    "Você não tem muita certeza se existe uma resposta satisfatória pra esses questionamentos, 
+    "Você não tem muita certeza se existe uma resposta satisfatória pra esses questionamentos,
     mas você sabe que ossos não são inteiramente vazios"
 
     "Crânio" "Mm…"
 
-    "O crânio começa a vibrar enquanto que a textura das minúsculas partículas de sangue e 
+    "O crânio começa a vibrar enquanto que a textura das minúsculas partículas de sangue e
     dos traços de carbono começa a ficar cada vez mais evidente contra a sua pele"
 
     "Crânio" "Mmmmm!" with vpunch
@@ -407,7 +405,7 @@ label cemiterio_0:
 
     show abelarde cranio at center with move
 
-    "Os cenho do cervo se deforma na melhor imitação de raiva que uma pilha de ossos consegue fazer 
+    "Os cenho do cervo se deforma na melhor imitação de raiva que uma pilha de ossos consegue fazer
     quando ele cai das suas mãos direto no chão lamacento"
 
     "Você passa um momento encarando o chifrudo ranzinza no chão. Você sente que talvez ele possa ter se arrependido da reação precipitada"
@@ -416,37 +414,37 @@ label cemiterio_0:
 
     show abelarde cranio
 
-    cervo "ok, eu mudei de ideia"
+    cervo "Ok, eu mudei de ideia"
 
-    cervo "me segura"
+    cervo "Me segura"
 
     "Você atende ao pedido do seu novo amigo esqueletal"
-    
+
     show abelarde cranio at truecenter
     with move
 
-    "Você volta a sua posição usual: osso erguidos somente pelas pontas dos seus dedos, 
+    "Você volta à sua posição usual: ossos erguidos somente pelas pontas dos seus dedos,
     tendo certeza de deixar as órbitas oculares do recém revivido sempre um pouquinho acima dos seus próprios olhos"
 
-    "A reação do cervo não lhe é estranha, a experiência de voltar a vida pode ser algo extremamente chocante para a maioria das pessoas. 
+    "A reação do cervo não lhe é estranha, a experiência de voltar a vida pode ser algo extremamente chocante para a maioria das pessoas.
     Você consegue ver ele se mexendo de leve na sua mão enquanto debate se ele devia pedir pra ser jogado na lama de novo ou não"
 
     "Você explica a condição na qual ele se encontra atualmente"
 
-    "Você diz que ele não tem o que temer, que as entranhas da terra sempre serão parte dele na pós vida, 
+    "Você diz que ele não tem o que temer, que as entranhas da terra sempre serão parte dele na pós vida,
     bem como ele se permitiu se tornar parte delas. Mesmo o frio da morte pode se aconchegar no calor Do Enterrado"
 
-    "Bem como a pele é uma mera extensão do osso, o osso se torna uma mera extensão da terra ao ceder sua essência à insaciável fome do chão." 
-    
-    "Você diz para Abelarde que ele tanto pode, como deve, encontrar conforto no fato de que bem como ele faz parte de todo verme naquela 
+    "Bem como a pele é uma mera extensão do osso, o osso se torna uma mera extensão da terra ao ceder sua essência à insaciável fome do chão."
+
+    "Você diz para Abelarde que ele tanto pode, como deve, encontrar conforto no fato de que bem como ele faz parte de todo verme naquela
     floresta, todo verme naquela floresta fazia parte dele."
 
     "Falando nisso, ah, opa"
 
     "Opa, opa, ok"
 
-    "Você peteleca pro chão uma minhoquinha que tava tentando entrar dentro do olho do Abelarde, 
-    ele não parece particularmente satisfeito, mas você não faz a mínima ideia do porque"
+    "Você peteleca pro chão uma minhoquinha que tava tentando entrar dentro do olho do Abelarde,
+    ele não parece particularmente satisfeito, mas você não faz a mínima ideia do porquê"
 
     "De qualquer modo, onde você tava? Claro, terra, vermes"
 
@@ -470,7 +468,7 @@ label cemiterio_0:
 
     cervo "Pois você pode avisar que eu tô muito bem morto e obrigado"
 
-    cervo "Em primeiro lugar que eu não faço nem ideia do porque ela iria me querer vivo de novo"
+    cervo "Em primeiro lugar que eu não faço nem ideia do porquê ela iria me querer vivo de novo"
 
     cervo "Em segundo que a conversa toda sobre as minhocas não me deixou exatamente num clima de querer conversar com ninguém agora"
 
@@ -499,13 +497,13 @@ label cemiterio_0:
     cervo "Eu não tenho nem um mísero pinguinho de interesse em voltar a viver com aquela! Obcecada!"
 
     if genero == 2:
-        "Ok, ok, é óbvio que eles tem alguma espécie de drama familiar que talvez você não esteja inteiramente qualificade pra lidar com, 
+        "Ok, ok, é óbvio que eles tem alguma espécie de drama familiar que talvez você não esteja inteiramente qualificade pra lidar com,
         mas isso não significa que vocês três não podem tentar chegar em algum acordo"
-    elif genero == 1: 
-        "Ok, ok, é óbvio que eles tem alguma espécie de drama familiar que talvez você não esteja inteiramente qualificada pra lidar com, 
+    elif genero == 1:
+        "Ok, ok, é óbvio que eles tem alguma espécie de drama familiar que talvez você não esteja inteiramente qualificada pra lidar com,
         mas isso não significa que vocês três não podem tentar chegar em algum acordo"
     else:
-        "Ok, ok, é óbvio que eles tem alguma espécie de drama familiar que talvez você não esteja inteiramente qualificado pra lidar com, 
+        "Ok, ok, é óbvio que eles tem alguma espécie de drama familiar que talvez você não esteja inteiramente qualificado pra lidar com,
         mas isso não significa que vocês três não podem tentar chegar em algum acordo"
 
     cervo "Olha aqui colega! Não existe esse negócio de “nós três”, ok?!"
@@ -522,12 +520,12 @@ label cemiterio_0:
     cervo "Se a Palma tá querendo me trazer de volta é só sinal de que ela nunca teve um plano de verdade sobre morar nessa casona sozinha!"
 
     cervo "E isso oficialmente não é mais problema meu!"
-    
+
     "Ok, talvez o cervo raivoso não tenha percebido que esse meio que é o seu emprego"
 
     "Então seria bom se ele pudesse colaborar"
 
-    "Se qualquer coisa, pelo menos pra que a sua viagem de mais de uma hora pra chegar aqui, 
+    "Se qualquer coisa, pelo menos pra que a sua viagem de mais de uma hora pra chegar aqui,
     e, presumivelmente, mais de uma hora pra conseguir sair não fosse em vão"
 
     cervo "Ora, eu!"
@@ -542,10 +540,10 @@ label cemiterio_0:
 
     "Você deixa o Abelarde numa pilhinha confortável de lama de chão antes de pegar a pá e começar de novo a cavucar ao redor da lápide dele"
 
-    "Mesmo tendo que lidar com o crânio constantemente gritando pra você acelerar o processo, 
+    "Mesmo tendo que lidar com o crânio constantemente gritando pra você acelerar o processo,
     você consegue desenterrar o resto do esqueleto sem muitos problemas"
 
-    "Você aproveita pra pegar um manto do varal próximo. Mesmo que não tenha mais nada pra esconder, 
+    "Você aproveita pra pegar um manto do varal próximo. Mesmo que não tenha mais nada pra esconder,
     a maior parte dos recém revividos se sentem extremamente expostos quando os seus ossos ficam à mercê do vento"
 
     cervo "Vendo de longe, eu sempre achei que eu fosse um pouquinho mais alto do que isso"
@@ -558,7 +556,7 @@ label cemiterio_0:
 
     "Você alinha as peças diferentes o melhor possível no chão antes de tocar novamente o crânio de Abelarde"
 
-    "Vagarosamente, todas as peças do corpo dele começam a pulsar em uma única voz. 
+    "Vagarosamente, todas as peças do corpo dele começam a pulsar em uma única voz.
     Você sente elas tremerem devagar enquanto Abelarde vai ganhando controle do seu novo velho corpo de novo."
 
     "A primeira ação consciente dele com as novas mãos é rapidamente tomar o manto das suas mãos para se cobrir"
@@ -587,23 +585,23 @@ label cemiterio_0:
 
     "Pé Grande!!!"
 
-    "Ok, não tem um Pé Grande, 
+    "Ok, não tem um Pé Grande,
     mas você tem que admitir que você não conseguia parar de pensar na possibilidade de encontrar um durante a sua viagem até aqui"
 
     "Era um medo inteiramente irracional, é claro."
-    
+
     "Todo mundo sabe que Pés Grandes costumam viver em áreas muito mais frias do que essa"
-    
+
     "e que eles são inteiramente civilizados"
 
     if genero == 0:
-        "Além disso você meio que precisa admitir que ter medo de um Pé Grande é sim um reflexo da sua visão privilegiada de mundo, 
+        "Além disso você meio que precisa admitir que ter medo de um Pé Grande é sim um reflexo da sua visão privilegiada de mundo,
         tendo nascido um lagarto, espécie considerada por literalmente quase todo mundo como \"bem ok\""
     elif genero == 1:
-        "Além disso você meio que precisa admitir que ter medo de um Pé Grande é sim um reflexo da sua visão privilegiada de mundo, 
+        "Além disso você meio que precisa admitir que ter medo de um Pé Grande é sim um reflexo da sua visão privilegiada de mundo,
         tendo nascido uma lagarta, espécie considerada por literalmente quase todo mundo como \"bem ok\""
     else:
-        "Além disso você meio que precisa admitir que ter medo de um Pé Grande é sim um reflexo da sua visão privilegiada de mundo, 
+        "Além disso você meio que precisa admitir que ter medo de um Pé Grande é sim um reflexo da sua visão privilegiada de mundo,
         tendo nascido ume lagarte, espécie considerada por literalmente quase todo mundo como \"bem ok\""
 
     "Mas não era disso que essa situação se tratava, você se vira de novo pra Abelarde pra perguntar o que diabos que ele tinha -"
@@ -614,12 +612,12 @@ label cemiterio_0:
 
     "Claro, ele sumiu"
 
-    "Não é como se fosse a primeira vez que um morto simplesmente te deixa de lado. 
+    "Não é como se fosse a primeira vez que um morto simplesmente te deixa de lado.
     Isso, é claro, não muda o fato de que isso é uma situação extremamente decepcionante"
 
     "Você supõe que a melhor coisa a se fazer a esse ponto é voltar pra falar com a Palma sobre o que aconteceu"
 
-    "Você zigue zagueia por entre os túmulos em direção à entrada da casa, tomando sempre cuidado pra não pisar na cabeça de algum cadáver solto"
+    "Você ziguezagueia por entre os túmulos em direção à entrada da casa, tomando sempre cuidado pra não pisar na cabeça de algum cadáver solto"
 
     "Você chega na porta da frente, bate as botas lamacentas, e dá 3 batidinhas na madeira"
 
@@ -631,20 +629,20 @@ label cemiterio_0:
 
     show palma normal
 
-    "A Palma parece estar dando o seu melhor pra ocupar a maior porcentagem possível do seu campo de visão. 
+    "A Palma parece estar dando o seu melhor pra ocupar a maior porcentagem possível do seu campo de visão.
     Mesmo assim, você não consegue deixar de notar o quão grande a casa é"
 
-    "Seus olhos se fixam particularmente em uma espécie de pedestal no meio da sala. 
+    "Seus olhos se fixam particularmente em uma espécie de pedestal no meio da sala.
     Parece que guardaram uma folha de papel com alguma coisa escrita lá dentro"
 
-    "… mas isso não é importante agora. Seus olhos se fixam de novo na Palma, 
+    "… mas isso não é importante agora. Seus olhos se fixam de novo na Palma,
     cuja expressão mudou de pura eletricidade pra uma mistura deprimente de confusão e descrença"
 
     dragao "Uh…?"
 
     dragao "Cadê o Abelarde?"
 
-    "Você tenta explicar do jeito mais delicado possível que o irmão esqueleto dela meio que chamou ela de maluca 
+    "Você tenta explicar do jeito mais delicado possível que o irmão esqueleto dela meio que chamou ela de maluca
     e depois saiu correndo pro meio da floresta"
 
     dragao "Oh"
@@ -653,7 +651,7 @@ label cemiterio_0:
 
     "Ela para de falar e vocês se encaram por um segundo desconfortável"
 
-    "Você imagina por um segundo que, já que ela não tem nenhuma prova de que você realmente fez o seu trabalho, 
+    "Você imagina por um segundo que, já que ela não tem nenhuma prova de que você realmente fez o seu trabalho,
     ela vai te mandar voltar à pé pra casa e ainda sem pagamento"
 
     "Você não precisa dizer em voz alta o quanto você se opõe à essa ideia"
@@ -700,7 +698,7 @@ label casaIn_0:
 
     dragao "Oh, isso, uhh, isso não é nada"
 
-    "Tarde demais moça agora você vai ler"
+    "Tarde demais, moça. Agora você vai ler!"
 
     show poema renascer at truecenter
 
@@ -711,7 +709,7 @@ label casaIn_0:
     hide poema with dissolve
 
     "Huh, okay"
-    
+
     dragao "É, uh"
 
     dragao "Foi minha avó que escreveu"
@@ -739,10 +737,10 @@ label casaIn_0:
 
     dragao "Claro"
 
-    "Do hall de entrada vocês sobem as escadas e vão parar na porta de um quarto. 
+    "Do hall de entrada vocês sobem as escadas e vão parar na porta de um quarto.
     Palma começa a mexer num bolo de chaves que ela tinha guardado no bolso"
 
-    "Um, um molho de chaves, essa é a expressão certa"
+    "Hm, hm molho de chaves, essa é a expressão certa"
 
     dragao "O quarto é de uma tia minha"
 
@@ -772,7 +770,7 @@ label casaIn_0:
 
     "Você pretendia descansar por um segundo antes de ir fazer alguma coisa mais produtiva mas, uh"
 
-    "É, não, você vai ir dormir agora sim"
+    "É, não, você vai dormir agora sim"
 
     "Você afunda no colchão e deixa o sono te envolver completamente"
 
@@ -781,13 +779,13 @@ label casaIn_0:
     "TECO" with hpunch
 
     if genero == 2:
-        "Uh, ok, você tem quase certeza de que isso foi um pássaro se tacando na janela do seu quarto, o que é sinal de que você não devia olhar, 
+        "Uh, ok, você tem quase certeza de que isso foi um pássaro se tacando na janela do seu quarto, o que é sinal de que você não devia olhar,
         porque se você ver um pássaro morto seu coração mole vai te fazer reviver ele e você vai ficar ainda mais cansade"
     elif genero == 1:
-        "Uh, ok, você tem quase certeza de que isso foi um pássaro se tacando na janela do seu quarto, o que é sinal de que você não devia olhar, 
+        "Uh, ok, você tem quase certeza de que isso foi um pássaro se tacando na janela do seu quarto, o que é sinal de que você não devia olhar,
         porque se você ver um pássaro morto seu coração mole vai te fazer reviver ele e você vai ficar ainda mais cansada"
     else:
-        "Uh, ok, você tem quase certeza de que isso foi um pássaro se tacando na janela do seu quarto, o que é sinal de que você não devia olhar, 
+        "Uh, ok, você tem quase certeza de que isso foi um pássaro se tacando na janela do seu quarto, o que é sinal de que você não devia olhar,
         porque se você ver um pássaro morto seu coração mole vai te fazer reviver ele e você vai ficar ainda mais cansado"
 
     "Então você ignora completamente o barulho e -"
@@ -795,18 +793,18 @@ label casaIn_0:
     "TECO" with hpunch
 
     if genero == 2:
-        "Você admite que não é exatamente todo dia que dois pássaros se tacam na sua janela consecutivamente, 
+        "Você admite que não é exatamente todo dia que dois pássaros se tacam na sua janela consecutivamente,
         mas você tá disposte a acreditar que a Mãe Natureza não erra, e que se o destino quis que esses dois -"
     elif genero == 1:
-        "Você admite que não é exatamente todo dia que dois pássaros se tacam na sua janela consecutivamente, 
+        "Você admite que não é exatamente todo dia que dois pássaros se tacam na sua janela consecutivamente,
         mas você tá disposta a acreditar que a Mãe Natureza não erra, e que se o destino quis que esses dois -"
     else:
-        "Você admite que não é exatamente todo dia que dois pássaros se tacam na sua janela consecutivamente, 
+        "Você admite que não é exatamente todo dia que dois pássaros se tacam na sua janela consecutivamente,
         mas você tá disposto a acreditar que a Mãe Natureza não erra, e que se o destino quis que esses dois -"
 
     "TECO" with hpunch
 
-    "Você reconhece que a Mãe Natureza absolutamente tem alguma coisa contra pássaros 
+    "Você reconhece que a Mãe Natureza absolutamente tem alguma coisa contra pássaros
     e bombardear a janela de alguém com eles é só uma coisa que Ela faz de vez em quando como forma de retribuição divi -"
 
     "TECO" with hpunch
@@ -841,7 +839,7 @@ label quarto_0:
 
     "Claro, é ideal pra ele que a Palma não escute essa bagunça toda"
 
-    "Abelarde começa a sinalizar pra você usando uma combinação de gestos rápidos e bem treinados 
+    "Abelarde começa a sinalizar pra você usando uma combinação de gestos rápidos e bem treinados
     e você começa a pensar num jeito de mostrar pra ele que você não entende Libras"
 
 menu:
@@ -858,17 +856,17 @@ label quarto_1:
 
     "Ele levanta a cabeça e começa a falar de maneira extremamente. Calma. E. Enunciada"
 
-    cervo "Não." 
-    cervo "Tenho." 
-    cervo "Pra." 
-    cervo "Onde." 
+    cervo "Não."
+    cervo "Tenho."
+    cervo "Pra."
+    cervo "Onde."
     cervo"Ir"
 
-    cervo "Me." 
-    cervo "Procura." 
+    cervo "Me."
+    cervo "Procura."
     cervo "Amanhã"
 
-    "Você reconhece que leitura labial é muito mais difícil quando a pessoa que você tá lendo não tem lábios, 
+    "Você reconhece que leitura labial é muito mais difícil quando a pessoa que você tá lendo não tem lábios,
     mas você acha que você acertou tudo"
 
     "Você começa a pensar em algum sinal pra confirmar que você entendeu, mas parece que o Abelarde já se virou pra ir embora"
@@ -887,24 +885,3 @@ label quarto_1:
     "Parece que funciona"
 
     jump introducao_dia1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    

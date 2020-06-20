@@ -1,0 +1,22 @@
+DETALHES
+- Deixar o texto do menu de Preferencias em PT
+- Deixar o texto do Sobre em PT, editar pra falar um pouco do jogo em si
+- Deixar o Help em PT
+- Seria bom a gente deixar coisas que o lagarto disse destacadas de uma forma diferente dos pensamentos dele ou do narrador, pra ficar claro quando é só pensamento e quando ele de fato fala
+
+COISAS LEGAIS - CONTINUAR ASSIM
+- Os efeitos de tremer e borrar os bgs são ótimos
+- O texto e o andamento da história estão bons por enquanto, só tem algumas correções de gramática/pontuação e erros de digitação
+- O humor da história está legal
+- O dia da Palma e o dia do Abelarde se complementam bem, porque ambos explicam um pouco sobre as metades do crânio
+
+CORREÇÕES DE ARTE
+- Consertar a sprite do cranio, para ter os chifres completos
+- Acho que precisamos de um cenário pro quarto
+- Podia ter uma sprite da torta, e o cenário da cozinha
+- Deixar mais claro que, ao longo da caminhada, passa pelo cemitério. A mudança do bg floresta pro bg cemitério e depois pro bg casa é muito rapida.
+- Podia ter a sprite da janela e do ateliê
+- Armário com a Aurora
+
+CORREÇÕES DE MÚSICA
+- A música do dia com a Palma é mais adequada para um final ou momento mais tenso da história, mas a gente colocou ela lá porque ainda não tem todas as músicas.
